@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+} 
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'overpass', sans-serif ;
+}
+.container {
+    background-color: hsl(213, 19%, 18%);
+    padding: 15px;
+    border-radius: 16px;
+    margin: 160px 64px;
+  
+}
+
+.wrapper-1 img {
+    background-color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    padding: 7px;
+    width: 10px;
+    margin:5px 0px ;
+}
+.lin-1{
+    font-weight: 700;
+    margin: 7px 0px;
+    font-size: large;
+}
+.paragraph{
+    font-size: 9px;
+    line-height: 15px;
+    opacity: 0.7;
+}
+.number{
+    width: 100%;
+    margin: 20px 0px;
+}
+.number .number-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.number .number-wrapper .rate{
+    border:none;
+    border-radius:50%;
+    padding:10px;
+    background-color: hsl(217, 12%, 63%);
+    line-height: 50%;
+    font-size: xx-small;
+    font-weight: 700;
+    color: white;
+}
+.number .number-wrapper .rate:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    color: black;
+}
+.submit{
+    background-color:hsl(25, 97%, 53%) ;
+    color: black;
+    text-align: center;
+    padding: 8px 0px;
+    letter-spacing: 2px;
+    border-radius: 16px;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    margin-bottom: 8px;
+}
+.submit:hover{
+    background-color:white ;
+    cursor: pointer;
+}
+
+.wrapper-2{
+    display: none;
+    text-align: center;
+}
+
+.wrapper-2 .img-2 {
+    width: 60px;
+    margin:10px auto;
+    display: flex;
+    justify-content: center;
+}
+.remark{
+    color:hsl(25, 97%, 53%); 
+    border-radius: 50px;
+    background-color:hsl(217, 12%, 63%) ;
+    font-size: 11px ;
+    padding: 4px;
+    font-weight: 400;
+    width:120px ;
+    margin: 0px auto;
+}
+.thanks{
+    font-weight: 400;
+    margin: 20px 0px 10px;
+}
+
+@media screen and (max-width:330px){
+    .container {
+        margin: 128px 12px;
+    }
+}
+
+@media screen and (min-width:680px)and (max-width:1000px){
+    .container {
+        margin: 176px 256px;
+    }
+}
+
+@media screen and (min-width:990px)and (max-width:1390px){
+
+    .container {
+        margin: 208px 384px;
+    }
+}
+
+@media screen and (max-width:1700px) and (min-width:1390px) {
+
+    .container {
+        padding: 20px;
+        border: none;
+        border-radius: 20px;
+        margin: 240px 592px;
+    }
+
+    .wrapper-1 img {
+        background-color: hsl(217, 12%, 63%);
+        border-radius: 50%;
+        padding: 8px;
+        width: 12px;
+        margin:2px 0px 20px ;
+    }
+    .lin-1{
+        font-weight: 700;
+        margin: 5px 0px;
+        font-size: large
+    }
+    .number .number-wrapper .rate{
+        border:none;
+        border-radius:50%;
+        padding:12px;
+        background-color: hsl(217, 12%, 63%);
+        line-height: 50%;
+        font-size: x-small;
+        font-weight: bold;
+    }
+    .submit{
+        background-color:hsl(25, 97%, 53%) ;
+        color: black;
+        text-align: center;
+        padding: 6px 0px;
+        letter-spacing: 2px;
+        border-radius: 16px;
+        font-weight: bold;
+        width: 100%;
+        border: none;
+    }
+}
+
+@media screen and (min-width:1700px){
+    .container {
+        margin: 320px 672px;
+    }
+
+}
